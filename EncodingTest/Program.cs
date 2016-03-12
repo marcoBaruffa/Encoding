@@ -14,7 +14,7 @@ namespace EncodingTest
             Console.WriteLine(mydataEncoded);
 
             string myDataUnencoded = DecodeFrom64(mydataEncoded);
-            Console.OutputEncoding = Encoding.UTF8;
+
             Console.WriteLine(myDataUnencoded);
 
             Console.ReadLine();
